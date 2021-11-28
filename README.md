@@ -7,6 +7,10 @@
 3. knapsack problem with only one item that can be duplicated by 2
 4. knapsack problem with two diffent knapsacks
 
+## Environment
+OS : Linux 18.04   
+Complier : gcc 7.5.0
+
 ## how to use
 <pre><code>$ ./knapsack input.txt </code></pre>
 
@@ -16,6 +20,7 @@ weight2 benefit2
 weight3 benefit3   
 ...   
 maximum weight -1
+
 ## Introduction
 #### 1. knapsack problem
 recursive function knapsack()   
