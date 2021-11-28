@@ -7,7 +7,16 @@
 3. knapsack problem with only one item that can be duplicated by 2
 4. knapsack problem with two diffent knapsacks
 
-## how to
+## how to use
+<pre><code>$ ./knapsack input.txt </code></pre>
+
+## input file format
+weight1 benefit1   
+weight2 benefit2   
+weight3 benefit3   
+...   
+maximum weight -1
+## Introduction
 #### 1. knapsack problem
 recursive function knapsack()   
 > knapsack(n, weight) = max(knapsack(n-1, weight), knapsack(n-1, weight-W) + b)
